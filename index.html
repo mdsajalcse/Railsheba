@@ -12,7 +12,7 @@
     <!-- navbar part started -->
      <div class="header-nav">
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container">
                   <a class="navbar-brand" href="#"><img src="resources/images/bangladesh-railway.png" class="w-50"  alt=""></a>
                   <div class="railway-bd"><h4>Bangladesh <br> Railway</h4></div>
@@ -44,7 +44,51 @@
         
      </div>
      <!-- navbar part end -->
-   
+
+     <!-- hero part start -->
+   <section id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mt-3">
+          <form class="row g-3 mt-5">
+            <div class="col-md-6">
+              <label for="from" class="form-label">From</label>
+              <input type="text"placeholder="From Station" class="form-control" id="from">
+            </div>
+            <div class="col-md-6">
+              <label for="to" class="form-label">To</label>
+              <input type="password" class="form-control" placeholder="To Station" id="to">
+            </div>
+            <div class="col-md-6 mt-4">
+              <label for="Date_of_Journey" class="form-label">Date of Journey</label>
+              <input type="date" class="form-control" placeholder="Pick a date" id="Date_of_Journey">
+            </div>
+            <div class="col-md-6 mt-4">
+              <label for="Choose_a_Class" class="form-label">Choose a Class</label>
+              <select id="Choose_a_Class" class="form-select">
+                <option selected>Choose a class</option>
+                <option>ac_chair</option>
+                <option>shovon_chair</option>
+                <option>ac_chair</option>
+                <option>ac_chair</option>
+                <option>ac_chair</option>
+              </select>
+            </div>
+            
+            <div class="d-grid gap-2 mt-4">
+              <button class="btn btn-success" type="button">SEARCH TRAINS</button>
+             
+            </div>
+          </form>
+          
+        </div>
+        <div class="col-lg-6">
+         <a href=""> <img src="/resources/images/home-banner-campaign-05-04-2023.webp" class="img-fluid mt-4 rounded" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+   </section>
 
 
 <script src="/vendors/js/bootstrap.min.js"></script>
