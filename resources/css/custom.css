@@ -1,0 +1,19 @@
+.railway-bd h4{
+    margin-left: -60px;
+    color:#DA924E;
+   
+}
+
+.nav-item a:hover{
+    border-bottom: 2px solid #3d2474;
+  
+    
+}
+.nav-item{
+    padding:6px;
+    font-weight: 400;
+    
+}
+.header-nav{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
