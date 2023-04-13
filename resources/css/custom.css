@@ -1,9 +1,10 @@
+/* logo design css */
 .railway-bd h4{
     margin-left: -60px;
     color:#DA924E;
    
 }
-
+/* nav item css */
 .nav-item:hover{
     border-bottom: 2px solid #3d2474;
   
@@ -17,15 +18,13 @@
 .header-nav{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+/* search select pay css */
 #search , .card{
     border: none;
 }
 
-
-#instruction .fa-circle-arrow-right{
-
-    
+/* instruction section css */
+#instruction .fa-circle-arrow-right{ 
     color: green;
     border-radius: 50%;
     font-size: 25px;
@@ -41,11 +40,12 @@
 .list h2{
     margin-left: 120px;
 }
-
+/* payment method css */
 #payment-method .dbbl-nexus img{
     width:70px;
 }
 
+/* ticket system css */
 #ticket-system span{
 
 font-weight: 700;
@@ -56,6 +56,7 @@ color: #333;
 
 }
 
+/* footer part css */
 footer .footer-first-part img{
     width: 70px;
     height: 50px;
