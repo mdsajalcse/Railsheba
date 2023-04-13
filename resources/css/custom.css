@@ -17,3 +17,58 @@
 .header-nav{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+#search , .card{
+    border: none;
+}
+
+
+#instruction .fa-circle-arrow-right{
+
+    
+    color: green;
+    border-radius: 50%;
+    font-size: 25px;
+    
+}
+.list ul li {
+    list-style-type: none;
+    margin-left: 100px;
+    padding:8px 0px;
+    font-size: 16px;
+
+}
+.list h2{
+    margin-left: 120px;
+}
+
+#payment-method .dbbl-nexus img{
+    width:70px;
+}
+
+#ticket-system span{
+
+font-weight: 700;
+font-size: 13px;
+line-height: 23px;
+text-align: center;
+color: #333;
+
+}
+
+footer .footer-first-part img{
+    width: 70px;
+    height: 50px;
+
+}
+
+.footer-first-part span{
+    font-size: 25px;
+    color:#DA924E;
+}
+.footer-first-part p{
+    margin-left: 50px;
+}
+footer{
+    border-top: 3px solid green;
+}
