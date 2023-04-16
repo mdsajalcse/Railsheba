@@ -78,7 +78,7 @@ footer{
 /* login page css */
 
 .login-bg{
-    height: 100vh;
+    height: 70vh;
     background-image: url("/resources/images/login-page-bg.png");
     background-repeat: no-repeat;
     background-position: right;
