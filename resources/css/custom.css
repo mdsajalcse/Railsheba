@@ -78,7 +78,7 @@ footer{
 /* login page css */
 
 .login-bg{
-    height: 70vh;
+    height: 80vh;
     background-image: url("/resources/images/login-page-bg.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -154,4 +154,27 @@ footer{
     background-color: #454545;
     color: #fff;
     font-weight:bold;
+}
+
+/* form part */
+.login-bg .form-group{
+    
+}
+
+/* select train */
+
+#select-train{
+    
+    background-color: #F5F5F5;
+}
+
+.train-info{
+background-color: #FFFFFF;
+}
+.form-control{
+    border-bottom: none !important;
+}
+
+.form-select{
+    border-top:none !important;
 }
