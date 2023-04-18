@@ -44,7 +44,61 @@
         
      </div>
      <!-- navbar part end -->
+       <!-- registration part start -->
+       <section id="registration" class="py-5">
+        <div class="container">
+          <div class="row">
+            <h3>Registration</h3>
+            <hr class="hr-class">
+            <div class="verify-nid text-center">
+              <img src="resources/images/verify-nid-illustration.png" alt="" class="img-fluid">
+              <h4>Please Verify Your NID</h4>
+              <p>Enter the information below to verify and register <br> your NID with Bangladesh Railway Ticketing Service
+               <br><br>
+               If your NID is verified through SMS, please use the <br> details used during the SMS verification.
+              </p>
+               <div class="col-12 my-3 text-center">
+                <input type="text" class="py-2 px-5" placeholder="Enter Mobile Number" >
+              </div>
+              <div class="col-12 text-center">
+                <input type="text" class="py-2 px-5" placeholder="Enter NID Number" >
+              </div>
+              <div class="col-12 my-3 text-center">
+                <input type="datetime" class="py-2 px-5" placeholder="Select Date of Birth" >
+              </div>
 
+              <!-- captcha -->
+              <div class="col-12">
+                <div class="captcha">
+                  <div class="spinner">
+                    <label>
+                      <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                      <span class="checkmark"><span>&nbsp;</span></span>
+                    </label>
+                  </div>
+                  <div class="text">
+                    I'm not a robot
+                  </div>
+                  <div class="logo">
+                    <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/" class="img-fluid rounded">
+                    <p>reCAPTCHA</p>
+                    <small>Privacy - Terms</small>
+                  </div>
+                </div>
+              </div>
+               <div class="col-12 search-box">
+              <div class="d-grid gap-2">
+                <button class="btn btn-success" type="button">Search</button>
+              </div>
+              </div>
+
+            
+            </div>
+
+
+          </div>
+        </div>
+       </section>
      
 <footer class="text-center py-4">
   <div class="container">
