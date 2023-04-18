@@ -375,8 +375,8 @@ padding: 15px 8px;
 }
 
 /* login page */
-body{
-    background-color: #dee9ff;
+#registration{
+background-color: #FCFCFC;
 }
 
 .registration-form{
@@ -471,4 +471,19 @@ body{
         font-size: 30px;
         line-height: 70px;
     }
+}
+
+#contact{
+
+    
+}
+.bkash{
+    width: 500px;
+    border-top: 1px solid #b1a9a9;
+    border-bottom: 1px solid #b1a9a9;
+    margin: auto;
+    padding: 20px 60px;
+}
+.bkash  h4.help{
+    color:#DC944E;
 }
